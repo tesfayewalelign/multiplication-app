@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   height: 100vh;
+   background-color: rgb(194, 194, 153);
+}
+.calculator{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px white;
+
+}
+.inside{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.summit{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: none;
+}
+.answer{
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-color: green;
+   
+    
+}
+h6{
+    text-align: right;
+    margin-right: 55px;
+}
